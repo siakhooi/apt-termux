@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Siak Hooi's APT Repository for Termux</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css" />
+    <script SRC='https://hit-tztugwlsja-uc.a.run.app/?counter=ghio-apt-termux&outputtype=javascript'></script>
+    <script>function show_counter(){ document.getElementById('counter').innerText=LANGKASUKA_WEBCOUNTER.count;}</script>
+  </head>
+
+  <body onload="show_counter()">
+    <div class="w3-container">
+      <h1>Siak Hooi's APT Repository for Termux</h1>
+    </div>
+    <div class="w3-container w3-flat-green-sea">
+      <h2>Packages</h2>
+    </div>
+    <div class="w3-container">
+      <table class="w3-table w3-striped">
+        <tr>
+          <th>Name</th>
+          <th>Installation</th>
+          <th>Source Repo</th>
+          <th>Remark</th>
+        </tr>
+      </table>
+    </div>
+
+    <div class="w3-container w3-flat-green-sea">
+      <h2>How to use this Repository</h2>
+    </div>
+    <div class="w3-container">
+      <h3>One time setup</h3>
+      <pre>
+        $ curl -L https://siakhooi.github.io/apt-termux/siakhooi-apt-termux.list -o $PREFIX/etc/apt/sources.list.d/siakhooi-apt-termux.list
+        $ curl -L https://siakhooi.github.io/apt-termux/siakhooi-apt-termux.gpg  -o $PREFIX/etc/apt/trusted.gpg.d/siakhooi-apt-termux.gpg
+        $ apt update
+      </pre>
+    </div>
+    <div class="w3-container w3-flat-green-sea">
+      <h2>Reference</h2>
+    </div>
+    <div class="w3-container">
+      <ol><li>Repository: <a href="https://github.com/siakhooi/apt-termux">https://github.com/siakhooi/apt-termux</a></li></ol>
+    </div>
+    <div class="w3-container">
+      Visitors: [<span id="counter"></span>]
+    </div>
+  </body>
+</html>

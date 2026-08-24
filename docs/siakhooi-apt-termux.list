@@ -1,0 +1,1 @@
+deb [signed-by=/data/data/com.termux/files/usr/etc/apt/trusted.gpg.d/siakhooi-apt-termux.gpg] https://siakhooi.github.io/apt-termux stable main
