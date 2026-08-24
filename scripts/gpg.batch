@@ -1,0 +1,9 @@
+%echo Generating PGP key
+Key-Type: RSA
+Key-Length: 4096
+Name-Real: siakhooi-apt-termux
+Name-Email: siakhooi@gmail.com
+Expire-Date: 0
+%no-ask-passphrase
+%no-protection
+%commit
