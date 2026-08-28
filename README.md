@@ -15,7 +15,6 @@ Site: <https://siakhooi.github.io/apt-termux/>
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/siakhooi/apt-termux?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/siakhooi/apt-termux?logo=github)
 ![GitHub language count](https://img.shields.io/github/languages/count/siakhooi/apt-termux?logo=github)
-![Lines of code](https://img.shields.io/tokei/lines/github/siakhooi/apt-termux?logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/siakhooi/apt-termux?logo=github)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/siakhooi/apt-termux?logo=github)
 ![Workflow](https://img.shields.io/badge/Workflow-github-purple)
