@@ -8,8 +8,15 @@ if [[ ! -f apt-ftparchive.conf ]]; then
 fi
 set -x
 
-mkdir -p docs/dists/stable/main/binary-{amd64,all}
+mkdir -p docs/dists/stable/main/binary-{aarch64,arm,i686,x86_64,all}
 mkdir -p cache
+
+# apt-ftparchive indexes *_<arch>.deb. GoReleaser names these *_<arch>.termux.deb.
+shopt -s globstar nullglob
+for deb in docs/pool/**/*.termux.deb; do
+    mv -f "$deb" "${deb%.termux.deb}.deb"
+done
+
 apt-ftparchive generate apt-ftparchive.conf
 apt-ftparchive -c apt-ftparchive.conf release docs/dists/stable > docs/dists/stable/Release
 
