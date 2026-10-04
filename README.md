@@ -4,6 +4,9 @@ Siak Hooi's APT Repository for Termux
 
 Site: <https://siakhooi.github.io/apt-termux/>
 
+## Applications
+- [picsum](https://github.com/siakhooi/picsum)
+
 ## Badges
 
 ![GitHub](https://img.shields.io/github/license/siakhooi/apt-termux?logo=github)
