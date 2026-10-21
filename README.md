@@ -7,6 +7,7 @@ Site: <https://siakhooi.github.io/apt-termux/>
 ## Applications
 - [picsum](https://github.com/siakhooi/picsum)
 - [json2table](https://github.com/siakhooi/json2table)
+- [cooonfig](https://github.com/siakhooi/cooonfig)
 
 ## Badges
 
