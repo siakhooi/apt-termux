@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: sudo apt install gpg
+      - run: sudo apt install gpg apt-utils
       - run: ./scripts/build.sh
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
